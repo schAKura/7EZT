@@ -94,6 +94,10 @@ footer {
     font-size: 110%;
 }
 
+.lista{
+    padding-left: 2.2%; 
+}
+
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
