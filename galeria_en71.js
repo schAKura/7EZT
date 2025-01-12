@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const img = document.createElement('img');
             img.src = src;
-            img.alt = 'Zdjęcie EN57';
+            img.alt = 'Zdjęcie EN71';
             img.addEventListener('click', function() {
                 window.open(src, '_blank');
             });
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Tablica z nazwami obrazów
     const images = [];
-    for (let i = 1; i <= 16; i++) {
-        images.push(`media/en57 (${i}).jpg`);
+    for (let i = 1; i <= 9; i++) {
+        images.push(`media/en71/(${i}).jpg`);
     }
     
     createSlides(images);
