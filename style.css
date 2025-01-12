@@ -154,8 +154,8 @@ form button:hover {
         margin: 5px 0;
     }
     nav ul li a {
-        padding: 5px 10px;
-        font-size: 0.8em;
+        padding: 0.1vh 1.1vh;
+        font-size: 0.9em;
     }
     .gallery-container {
         flex-direction: column;
@@ -168,7 +168,7 @@ form button:hover {
     }
     footer {
         position: unset;
-        font-size: 0.7em;
+        font-size: 1em;
         padding: 10px 0;
     }
     /* Mniejsze rozmiary czcionek na telefonach */
@@ -182,7 +182,7 @@ form button:hover {
         font-size: 0.8em;
     }
     .logo {
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
 }
 
