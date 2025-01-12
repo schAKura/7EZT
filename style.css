@@ -201,8 +201,8 @@ form button:hover {
         padding: 10px 0;
     }
     .mapa iframe {
-        height: 40vw;
-        width: 50vw;
+        height: 150px;
+        width: 190px;
     }
     h1 {
         font-size: 1.3em;
