@@ -13,7 +13,7 @@ body {
     animation: logoAnimation 2s infinite;
 }
 
-header{
+header {
     background-color: #2c3e50;
     color: #ecf0f1;
     padding: 15px 0;
@@ -94,8 +94,8 @@ footer {
     font-size: 110%;
 }
 
-.lista{
-    padding-left: 2.2%; 
+.lista {
+    padding-left: 2.2%;
 }
 
 .gallery-container {
@@ -148,9 +148,14 @@ form button:hover {
     nav ul {
         flex-direction: column;
         background-color: #2c3e50;
+        padding: 5px 0; /* Zmniejszenie paddingu */
     }
     nav ul li {
         margin: 5px 0;
+    }
+    nav ul li a {
+        padding: 8px 10px; /* Zmniejszenie paddingu */
+        font-size: 0.8em; /* Zmniejszenie rozmiaru czcionki */
     }
     .gallery-container {
         flex-direction: column;
@@ -165,6 +170,13 @@ form button:hover {
         position: unset;
         font-size: 0.8em;
         padding: 10px 0;
+    }
+    /* Mniejsze rozmiary czcionek na telefonach */
+    h1, h2, h3, h4, p, li, #wprowadzenie {
+        font-size: 0.7em;
+    }
+    .logo {
+        font-size: 1.3em;
     }
 }
 
@@ -187,6 +199,19 @@ form button:hover {
     footer {
         font-size: 0.9em;
         padding: 12px 0;
+    }
+    /* Mniejsze rozmiary czcionek na tabletach */
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p, li, #wprowadzenie {
+        font-size: 0.9em;
+    }
+    .logo {
+        font-size: 2em;
     }
 }
 
