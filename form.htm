@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ankieta</title>
+</head>
+<body>
+    <header>
+        <div class="logo">7 cudownych EZT</div>
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.htm">Strona główna</a></li>
+                <li><a href="en57.htm">EN57</a></li>
+                <li><a href="en71.htm">EN71</a></li>
+                <li><a href="en94.htm">EN94</a></li>
+                <li><a href="ew60.htm">EW60</a></li>
+                <li><a href="impuls.htm">Impuls</a></li>
+                <li><a href="elf.htm">Elf</a></li>
+                <li><a href="flirt.htm">FLIRT</a></li>
+                <li><a href="zrodla.htm">Źródła</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ankieta o stronie 7 cudownych EZT</h1>
+        <form action="index.htm">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="rating">Ocena strony:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5 - Doskonała</option>
+                <option value="4">4 - Bardzo dobra</option>
+                <option value="3">3 - Dobra</option>
+                <option value="2">2 - Średnia</option>
+                <option value="1">1 - Słaba</option>
+            </select><br><br>
+
+            <label for="favorite_ezt">Który EZT podobał ci się najbardziej?</label>
+            <select id="favorite_ezt" name="favorite_ezt" required>
+                <option value="EN57">EN57</option>
+                <option value="EN71">EN71</option>
+                <option value="EN94">EN94</option>
+                <option value="EW60">EW60</option>
+                <option value="Impuls">Impuls</option>
+                <option value="Elf">Elf</option>
+                <option value="FLIRT">FLIRT</option>
+            </select><br><br>
+
+            <label for="learned_something_new">Czy nauczyłeś(-aś) się czegoś nowego o EZT?</label>
+            <select id="learned_something_new" name="learned_something_new" required>
+                <option value="yes">Tak</option>
+                <option value="no">Nie</option>
+            </select><br><br>
+
+            <label for="improvement_suggestions">Co możemy poprawić na stronie?</label><br>
+            <textarea id="improvement_suggestions" name="improvement_suggestions" rows="4" cols="50"></textarea><br><br>
+
+            <label for="comments">Uwagi:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Wyślij</button>
+            <button type="reset">Wyczyść</button>
+        </form>
+    </main>
+    <footer>
+        <p><h2>Alan Kuranowski 2tc</h2></p>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>
