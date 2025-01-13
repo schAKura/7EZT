@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const slideContainer = document.querySelector('.slideshow-container');
     const dotsContainer = document.querySelector('.dots-container');
 
-    // Funkcja do stworzenia slajdów i kropek
     function createSlides(images) {
         images.forEach((src, index) => {
             const slideDiv = document.createElement('div');
@@ -25,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Tablica z nazwami obrazów
     const images = [];
     for (let i = 1; i <= 40; i++) {
         images.push(`media/en57/foto (${i}).jpg`);
