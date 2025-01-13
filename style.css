@@ -167,6 +167,14 @@ form button:hover {
     opacity: 0;
 }
 
+.opinia{
+    display: block;
+}
+
+.opinia-komputer{
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .menu-toggle {
         color: white;
@@ -203,6 +211,21 @@ form button:hover {
     nav ul li a:hover {
         color: #007bff;
     }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%
+    }
+
+    .menu-toggle {
+        opacity: 1;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 24px;
+        margin: 10px;
+        cursor: pointer;}
 
     header {
         width: 100%;
@@ -336,8 +359,8 @@ form button:hover {
     }
 
     .mySlides img {
-        width: 600px;
-        height: 450px;
+        width: 400px;
+        height: 300px;
         margin: auto;
         display: block;
     }
@@ -351,8 +374,29 @@ form button:hover {
         padding: 15px 0;
     }
 
+    .mapa{
+        height: 450px;
+    }
+
     .mapa iframe {
         height: 450px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #lewo, #prawo {
+        width: 49%;
+    }
+    
+    .opinia{
+        display: none;
+    }
+    
+    .opinia-komputer{
+        display: block;
     }
 }
 
