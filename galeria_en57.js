@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Tablica z nazwami obrazów
     const images = [];
-    for (let i = 1; i <= 38; i++) {
+    for (let i = 1; i <= 40; i++) {
         images.push(`media/en57/foto (${i}).jpg`);
     }
     
