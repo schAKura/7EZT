@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const img = document.createElement('img');
             img.src = src;
-            img.alt = 'Zdjęcie EN71';
+            img.alt = 'Zdjęcie Stadler Flirt';
             img.addEventListener('click', function() {
                 window.open(src, '_blank');
             });
@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     const images = [];
-    for (let i = 1; i <= 9; i++) {
-        images.push(`media/en71/foto (${i}).jpg`);
+    for (let i = 1; i <= 23; i++) {
+        images.push(`media/flirt/foto (${i}).jpg`);
     }
     
     createSlides(images);

@@ -310,13 +310,13 @@ form button:hover {
     }
 
     main {
-        margin-top: 2vh;
+        margin-top: 3vw;
         padding: 15px;
     }
 
     footer {
-        font-size: 0.9em;
-        padding: 12px 0;
+        font-size: 0.8em;
+        padding: 6px 0;
     }
 
     .mapa iframe {

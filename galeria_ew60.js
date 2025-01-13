@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             dot.className = dot.className.replace(' active', '');
         });
         dots[slideIndex - 1].className += ' active';
-        setTimeout(showSlides, 2000); // Zmiana obrazów co 2 sekundy
+        setTimeout(showSlides, 2000);
     }
 
     showSlides();
