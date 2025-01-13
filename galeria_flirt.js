@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     const images = [];
-    for (let i = 1; i <= 23; i++) {
+    for (let i = 1; i <= 6; i++) {
         images.push(`media/flirt/foto (${i}).jpg`);
     }
     
