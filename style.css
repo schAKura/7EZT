@@ -429,6 +429,10 @@ table a:hover {
         width: 90%;
         margin-bottom: 5px;
     }
+
+    audio {
+        max-width: 66vw;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
