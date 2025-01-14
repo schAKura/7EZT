@@ -392,10 +392,6 @@ table a:hover {
         padding: 10px 0;
     }
 
-    .zrodla-stopka{
-        position: fixed;
-    }
-
     .mapa iframe {
         height: 40vw;
         width: 70vw;
