@@ -371,7 +371,7 @@ table a:hover {
     }
 }
 
-@media only screen and (min-width: 1201 px) {
+@media only screen and (min-width: 1201px) {
     header {
         position: fixed;
         width: 100%;
