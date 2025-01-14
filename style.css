@@ -435,40 +435,37 @@ table a:hover {
     }
 
     table {
-        font-size: 0.7em;
         width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
         display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
-
-    table thead,
-    table tbody,
-    table th,
-    table td,
-    table tr {
+    
+    thead, tbody, th, td, tr {
         display: block;
     }
-
-    table thead tr {
+    
+    thead tr {
         position: absolute;
         top: -9999px;
         left: -9999px;
     }
-
-    table tr {
+    
+    tr {
         border: 1px solid #ddd;
     }
-
-    table td {
+    
+    td {
         border: none;
         border-bottom: 1px solid #ddd;
         position: relative;
         padding-left: 50%;
         text-align: left;
     }
-
-    table td:before {
+    
+    td:before {
         position: absolute;
         top: 50%;
         left: 10px;
