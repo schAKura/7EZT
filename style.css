@@ -225,11 +225,11 @@ table a:hover {
     opacity: 0;
 }
 
-.opinia{
+.opinia {
     display: block;
 }
 
-.opinia-komputer{
+.opinia-komputer {
     display: none;
 }
 
@@ -281,7 +281,6 @@ table a:hover {
     background-color: #2980b9;
 }
 
-
 @media only screen and (max-width: 600px) {
     .menu-toggle {
         color: white;
@@ -322,17 +321,8 @@ table a:hover {
     nav {
         display: flex;
         justify-content: center;
-        width: 100%
+        width: 100%;
     }
-
-    .menu-toggle {
-        opacity: 1;
-        color: white;
-        background: none;
-        border: none;
-        font-size: 24px;
-        margin: 10px;
-        cursor: pointer;}
 
     header {
         width: 100%;
@@ -407,7 +397,7 @@ table a:hover {
 
     p, li, #wprowadzenie {
         font-size: 0.8em;
-    }
+ }
 
     .logo {
         font-size: 1.3em;
@@ -482,19 +472,19 @@ table a:hover {
     nav ul {
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #34495e; /* Matching with site's theme */
+        background-color: #34495e;
         padding: 10px;
         border-radius: 8px;
-        margin: 20px; /* Larger margins */
+        margin: 20px;
     }
 
     nav ul li {
-        margin: 15px; /* Increased margin size */
+        margin: 15px;
     }
 
     nav ul li a {
         font-size: 1.2em;
-        color: #ecf0f1; /* Matching with site's theme */
+        color: #ecf0f1;
         text-decoration: none;
         padding: 10px;
         transition: background-color 0.3s, color 0.3s;
@@ -502,50 +492,49 @@ table a:hover {
     }
 
     nav ul li a:hover {
-        background-color: #3498db; /* Matching with site's accent color */
-        color: #2c3e50; /* Matching with site's theme */
+        background-color: #3498db;
+        color: #2c3e50;
     }
 
     header nav ul {
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #34495e; /* Matching with site's theme */
+        background-color: #34495e;
         padding: 10px;
         border-radius: 8px;
-        margin: 20px; /* Larger margins */
-        justify-content: center; /* Center the blocks */
+        margin: 20px;
+        justify-content: center;
     }
     
     header nav ul li {
-        margin: 20px; /* Increased margin size */
-        flex-basis: 20%; /* Smaller block size */
+        margin: 20px;
+        flex-basis: 20%;
         text-align: center;
     }
     
     header nav ul li:nth-child(odd) {
-        order: 1; /* First row */
+        order: 1;
     }
     
     header nav ul li:nth-child(even) {
-        order: 2; /* Second row */
+        order: 2;
     }
     
     header nav ul li a {
         font-size: 1.2em;
-        color: #ecf0f1; /* Matching with site's theme */
+        color: #ecf0f1;
         text-decoration: none;
         padding: 10px;
         transition: background-color 0.3s, color 0.3s;
         border-radius: 5px;
         display: block;
-        background-color: #2c3e50; /* Background for the blocks */
+        background-color: #2c3e50;
     }
     
     header nav ul li a:hover {
-        background-color: #3498db; /* Matching with site's accent color */
-        color: #2c3e50; /* Matching with site's theme */
+        background-color: #3498db;
+        color: #2c3e50;
     }
-    
     
     .mySlides img {
         width: 50vw;
@@ -640,7 +629,7 @@ table a:hover {
         padding: 15px 0;
     }
 
-    .mapa{
+    .mapa {
         height: 450px;
     }
 
@@ -657,15 +646,15 @@ table a:hover {
         width: 49%;
     }
     
-    .opinia{
+    .opinia {
         display: none;
     }
     
-    .opinia-komputer{
+    .opinia-komputer {
         display: block;
     }
 
-    .internal-nav{
+    .internal-nav {
         display: none;
     }
 }
