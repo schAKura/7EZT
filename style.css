@@ -382,7 +382,7 @@ table a:hover {
 
     main {
         padding: 10px;
-        margin: 4vh auto 4vh;
+        margin: 4vw auto 4vw;
         width: 70vw;
     }
 
@@ -466,6 +466,7 @@ table a:hover {
     }
     
     td:before {
+        text-align: left;
         position: absolute;
         top: 50%;
         left: 10px;
