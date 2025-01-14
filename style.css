@@ -435,8 +435,47 @@ table a:hover {
     }
 
     table {
-        max-width: 66vw;
-        font-size: 0.7em;
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    table thead,
+    table tbody,
+    table th,
+    table td,
+    table tr {
+        display: block;
+    }
+
+    table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table tr {
+        border: 1px solid #ddd;
+    }
+
+    table td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    table td:before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: calc(50% - 20px);
+        white-space: nowrap;
+        content: attr(data-label);
+        transform: translateY(-50%);
+        font-weight: bold;
     }
 }
 
