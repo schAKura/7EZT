@@ -182,7 +182,7 @@ form button:hover {
 }
 
 table {
-    width:  100%;
+    width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     font-size: 1em;
@@ -225,11 +225,11 @@ table a:hover {
     opacity: 0;
 }
 
-.opinia {
+.opinia{
     display: block;
 }
 
-.opinia-komputer {
+.opinia-komputer{
     display: none;
 }
 
@@ -281,24 +281,199 @@ table a:hover {
     background-color: #2980b9;
 }
 
+
 @media only screen and (max-width: 600px) {
-    /* Inne style... */
+    .menu-toggle {
+        color: white;
+        opacity: 1;
+        display: block;
+        background: none;
+        border: none;
+        font-size: 24px;
+        margin: 10px;
+        cursor: pointer;
+    }
 
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    nav ul li a:hover {
+        color: #007bff;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%
+    }
+
+    .menu-toggle {
+        opacity: 1;
+        color: white;
+        background: none;
+        border: none;
+        font-size: 24px;
+        margin: 10px;
+        cursor: pointer;}
+
+    header {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        background-color: #2c3e50;
+        padding: 5px 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    nav ul li a {
+        padding: 0.1vh 1.1vh;
+        font-size: 0.9em;
+    }
+
+    .internal-nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .internal-nav li {
+        margin: 10px 0;
+    }
+
+    .internal-nav li a {
+        padding: 15px 20px;
+        font-size: 1.2em;
+    }
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mySlides img {
+        width: 90vw;
+        height: 67.5vw;
+        margin: auto;
+        display: block;
+    }
+
+    main {
+        padding: 10px;
+        margin: 4vh auto 4vh;
+        width: 70vw;
+    }
+
+    footer {
+        position: unset;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+
+    .mapa iframe {
+        height: 40vw;
+        width: 70vw;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    p, li, #wprowadzenie {
+        font-size: 0.8em;
+    }
+
+    .logo {
+        font-size: 1.3em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form label, form input, form select, form textarea, form button {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    form label {
+        text-align: left;
+        width: 90%;
+        margin-bottom: 5px;
+    }
+
+    audio {
+        max-width: 66vw;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    thead, tbody, th, td, tr {
+        display: block;
+    }
+    
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    
+    tr {
+        border: 1px solid #ddd;
+    }
+    
     td {
-        display: flex; /* Użycie flexbox */
-        justify-content: space-between; /* Rozmieszczenie elementów */
-        align-items: center; /* Wyrównanie w pionie */
-        padding: 10px; /* Padding dla lepszej przestrzeni */
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+        text-align: right;
     }
-
-    td span {
-        flex: 1; /* Umożliwienie elastycznego rozkładu */
-        text-align: left; /* Wyrównanie do lewej dla etykiet */
-    }
-
-    td a {
-        text-align: right; /* Wyrównanie do prawej dla linków */
-        margin-left: 10px; /* Przestrzeń między etykietą a linkiem */
+    
+    td:before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: calc(50% - 20px);
+        white-space: nowrap;
+        content: attr(data-label);
+        transform: translateY(-50%);
+        font-weight: bold;
     }
 }
 
@@ -405,7 +580,7 @@ table a:hover {
         padding: 15px 0;
     }
 
-    .mapa {
+    .mapa{
         height: 450px;
     }
 
@@ -422,15 +597,15 @@ table a:hover {
         width: 49%;
     }
     
-    .opinia {
+    .opinia{
         display: none;
     }
     
-    .opinia-komputer {
+    .opinia-komputer{
         display: block;
     }
 
-    .internal-nav {
+    .internal-nav{
         display: none;
     }
 }
