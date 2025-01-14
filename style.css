@@ -435,6 +435,7 @@ table a:hover {
     }
 
     table {
+        font-size: 0.7em;
         width: 100%;
         display: block;
         overflow-x: auto;
